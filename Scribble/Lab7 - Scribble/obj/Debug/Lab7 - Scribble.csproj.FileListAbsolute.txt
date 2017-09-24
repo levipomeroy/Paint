@@ -1,0 +1,14 @@
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\bin\Debug\Lab7 - Scribble.exe.config
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\bin\Debug\Lab7 - Scribble.exe
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\bin\Debug\Lab7 - Scribble.pdb
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble.csprojResolveAssemblyReference.cache
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\MainWindow.g.cs
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\App.g.cs
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble_MarkupCompile.cache
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble_MarkupCompile.lref
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\MainWindow.baml
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble.g.resources
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7___Scribble.Properties.Resources.resources
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble.csproj.GenerateResource.Cache
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble.exe
+c:\users\levip_000\documents\visual studio 2015\Projects\Lab7 - Scribble\Lab7 - Scribble\obj\Debug\Lab7 - Scribble.pdb

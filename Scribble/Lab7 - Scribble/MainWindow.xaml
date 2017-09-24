@@ -1,0 +1,158 @@
+﻿<Window x:Class="Lab7___Scribble.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7___Scribble"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="496.512" Width="619.768">
+    <Grid>
+        <DockPanel>
+            <ToolBar 
+                DockPanel.Dock="Top" 
+                Margin="0,0,-0.667,0" 
+                VerticalAlignment="Top" 
+                Height="102"
+                Background="LightGray">
+
+                <StackPanel>
+                    <Label Content="Fill" HorizontalAlignment="Center" Margin="10,0,0,0"/>
+                    <xctk:ColorPicker
+                        x:Name="FillChooser"
+                        Height="20"
+                        Width="100"
+                        ShowAvailableColors="true"
+                        Margin="10,0,0,0"
+                        ToolTip="Choose a fill color"
+                        SelectedColor="Black" SelectedColorChanged="FillChooser_SelectedColorChanged"/>
+                    <Label Content="Border" HorizontalAlignment="Center" Margin="10,0,0,0"/>
+                    <xctk:ColorPicker
+                    x:Name="BorderChooser"
+                    Height="20"
+                    Width="100"
+                    ShowAvailableColors="True"
+                    Margin="10,0,0,0"
+                    SelectedColor="Black" SelectedColorChanged="BorderChooser_SelectedColorChanged"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <Label
+                    Content="Shapes"
+                        ToolTip="Select a shape to draw"
+                    HorizontalAlignment="Center"
+                    Margin="25,0,0,0">
+                    </Label>
+                    <WrapPanel>
+                        <StackPanel>
+                            <Button
+                        x:Name="ShapeRectangle"
+                        Height="30"
+                        Width="50"
+                        Margin="25,2,5,5"
+                        ToolTip="Draw a rectangle"
+                        Click="Shape_Click">
+                            </Button>
+                            <Button
+                        x:Name="ShapeLine"
+                        Height="30"
+                        Width="50"
+                        Margin="25,0,5,0"
+                        ToolTip="Draw a line"
+                        Click="Shape_Click">
+                            </Button>
+                        </StackPanel>
+                        <StackPanel>
+                            <Button
+                        x:Name="ShapeEllipse"
+                        Height="30"
+                        Width="50"
+                        Margin="5,2,5,5"
+                        ToolTip="Draw an Ellipse"
+                        Click="Shape_Click">
+                            </Button>
+                            <Button
+                        x:Name="ShapeDraw"
+                        Height="30"
+                        Width="50"
+                        Margin="5,0,5,0"
+                        Content="Draw" 
+                        ToolTip="Draw freely"
+                        Click="Shape_Click">
+                            </Button>
+                        </StackPanel>
+                    </WrapPanel>
+                </StackPanel>
+
+                <StackPanel>
+                    <Label
+                    Content="Thickness"
+                        ToolTip="Select a border thickness"
+                    HorizontalAlignment="Center"
+                        Margin="25,0,0,0">
+                    </Label>
+                    <WrapPanel>
+                        <StackPanel>
+                            <Button
+                        x:Name="Thickness2"
+                        Content="2"
+                        Height="30"
+                        Width="30"
+                         Margin="25,3,3,3"
+                        ToolTip="Thickness of 2"
+                        Click="Thickness_Click">
+                            </Button>
+                            <Button
+                        x:Name="Thickness5"
+                        Content="5"
+                        Height="30"
+                        Width="30"
+                         Margin="25,3,3,3"
+                        ToolTip="Thickness of 5"
+                        Click="Thickness_Click">
+                            </Button>
+                        </StackPanel>
+                        <StackPanel>
+                            <Button
+                        x:Name="Thickness10"
+                        Content="10"
+                        Height="30"
+                        Width="30"
+                        ToolTip="Thickness of 10"
+                        Margin="3,3,3,3"
+                        Click="Thickness_Click">
+                            </Button>
+                            <Button
+                        x:Name="Thickness20"
+                        Content="20"
+                        Height="30"
+                        Width="30"
+                        ToolTip="Thickness of 20"
+                        Margin="3,3,3,3" 
+                        Click="Thickness_Click">
+                            </Button>
+                        </StackPanel>
+                    </WrapPanel>
+                </StackPanel>
+
+                <Button
+                    x:Name="ClearButton"
+                    Content="Clear"
+                    Height="60"
+                    Width="60"
+                    ToolTip="Clear the canvas"
+                    Margin="25,28,10,10"
+                    BorderBrush="Black" Click="ClearButton_Click">
+                </Button>
+            </ToolBar>
+
+
+            <Canvas x:Name="MyCanvas" 
+                    MouseMove="MyCanvas_MouseMove" 
+                    Background="White"
+                    MouseRightButtonDown="MyCanvas_MouseRightButtonDown" MouseLeftButtonUp="MyCanvas_MouseLeftButtonUp" MouseLeftButtonDown="MyCanvas_MouseLeftButtonDown" >
+            </Canvas>
+
+        </DockPanel>
+    </Grid>
+</Window>
